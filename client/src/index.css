@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    background: rgb(222, 216, 216);
+    max-height: 80vh;
+}
+
+@layer utilities{
+    .main-container{
+        max-height: 100vh;
+        display: block;
+        padding-left: 20%;
+    }
+}
+@layer utilities{
+    .body-container{
+        max-height: 100vh;
+        max-width: 80%;
+    }
+}
